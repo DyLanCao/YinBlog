@@ -13,6 +13,11 @@ def index(request):
     return render(request, 'blog/index.html', context={'post_list': post_list})
 
 
+def about(request):
+    post_list = Post.objects.all()
+    return render(request, 'blog/about.html', context={'post_list': post_list})
+
+
 def archive(request, year, month):
     post_list = Post.objects.filter(created_time__year=year,
                                     created_time__month=month

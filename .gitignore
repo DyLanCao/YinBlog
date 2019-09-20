@@ -11,5 +11,7 @@ blog/static/blog/images_before_compression/*
 .idea
 .DS_Store
 blog/.ropeproject/
-blog/*.swl
+blog/*.sw*
+blogproject/*.sw*
+templates/blog/*.sw*
 .ropeproject
