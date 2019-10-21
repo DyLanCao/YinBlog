@@ -8,6 +8,7 @@ blog/static/blog/images_before_compression/*
 *.pyc
 *.swp
 *.swo
+*.sw*
 .idea
 .DS_Store
 blog/.ropeproject/
