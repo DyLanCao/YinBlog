@@ -17,6 +17,10 @@ def about(request):
     post_list = Post.objects.all()
     return render(request, 'blog/about.html', context={'post_list': post_list})
 
+def fullwidth(request):
+    post_list = Post.objects.all()
+    return render(request, 'blog/fullwidth.html', context={'post_list': post_list})
+
 def contact(request):
     post_list = Post.objects.all()
     return render(request, 'blog/contact.html', context={'post_list': post_list})
